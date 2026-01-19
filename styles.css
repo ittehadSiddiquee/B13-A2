@@ -1,8 +1,20 @@
+
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+align-items: center;
+justify-content: center;
+
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: blueviolet;
+    height: 80px;
+    
 }
 .nav-links{
    
@@ -14,6 +26,28 @@ nav{
 .nav-links a {
   text-decoration: none;
   color: aliceblue;
+}
+.microphone{
+    z-index: 1;
+   position: absolute;
+   margin-left: 46rem;
+   margin-top: 13rem;
+}
+.hero-circle{
+ position: absolute;
+ margin-left:39rem;
+ margin-top: 8rem;
+ 
+ 
+}
+.hero-bg{
+width: auto;
+height: auto;
+}
+.subscribe{
+    align-items: center;
+    justify-content: center;
+   display:grid;
 }
 .About{
     margin-left: 150px;
